@@ -37,6 +37,9 @@ h6 {
   text-transform: uppercase;
   font-weight: normal;
 }
+h4{
+  font-size: 14px !important;
+}
 
 h1 {
   font-size: 46px;
@@ -45,10 +48,13 @@ h1 {
 }
 
 h2 {
-  font-size: 46px;
+  display: flex;
+  font-size: 35px;
   line-height: 60px;
-  margin: 10px 0 30px;
+  margin: 11px 0 11px;
   padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 h3 {
@@ -76,6 +82,7 @@ ul li {
 
 p {
   margin: 0 0 30px;
+  font-size: 14px;
 }
 
 a {
@@ -1273,10 +1280,13 @@ span.section-tagline,
 h3.tagline,
 .single-property-section-one h1,
 .signature {
+  font-size: 18px;
   color: #9D9D9C;
   font-weight: 700;
   display: flex;
+  align-items: center;
   font-family: 'Lato', sans-serif;
+  justify-content: center;
 }
 
 h3.title {
@@ -2093,7 +2103,7 @@ h3.tagline {
 
 .eden-description,
 .section-amenities p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 32px;
 }
 
@@ -2225,8 +2235,11 @@ h1.bedroom-villas {
 
 .single-properties .sticky-prop-bar {
   background-color: #EAECEE;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .single-properties .sticky-prop-bar .get-touch-btn {
@@ -2701,6 +2714,13 @@ a.sort-by-location:active {
 
 .nos-baths:before {
   content: "\f2cd";
+}
+
+.flex2{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .nos-area:before {
@@ -4117,8 +4137,6 @@ footer#colophon a {
   .section-chairman-intro-inner span.section-tagline:after {
     width: 80px;
   }
-  
-  
 }
 
 
@@ -4624,6 +4642,10 @@ footer#colophon a {
 --------------------------------------------------------------*/
 
 @media only screen and (max-width: 767px) {
+  .flex2{
+    flex-direction: column;
+  }
+
   h1 {
     font-size: 28px;
     line-height: 40px;
@@ -4971,8 +4993,8 @@ footer#colophon a {
     padding-right: 15px;
   }
   .single-properties .sticky-prop-bar {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: auto;
   }
   .bathrooms-block>.card-body,
@@ -6188,4 +6210,45 @@ footer#colophon a {
 		color: #fff;
 		top:auto;
 	}
+}
+
+/* ----pluseanimation---- */
+.pulseanimation {
+  animation: pulse-cust 2s infinite;
+}
+
+@-webkit-keyframes pulse-cust {
+  0% {
+      -webkit-box-shadow: 0 0 0 0 #fff;
+  }
+
+  70% {
+      -webkit-box-shadow: 0 0 0 25px rgba(227, 56, 56, 0);
+  }
+
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(227, 56, 56, 0);
+  }
+}
+
+@keyframes pulse-cust {
+  0% {
+      -webkit-box-shadow: 0 0 0 0 #000;
+  }
+
+  70% {
+      -webkit-box-shadow: 0 0 0 25px rgba(227, 56, 56, 0);
+  }
+
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(227, 56, 56, 0);
+  }
+}
+.down-broc{
+  transform: rotate(270deg);
+    position: fixed;
+    z-index: 999;
+    right: -15%;
+    /* left: 88%; */
+    bottom: 39%;
 }

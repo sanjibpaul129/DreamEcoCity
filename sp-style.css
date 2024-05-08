@@ -113,6 +113,8 @@ iframe#_hjRemoteVarsFrame {
     box-shadow: 0 1px 23px #888888;
     border: none;
     margin: 0;
+    z-index: 999;
+    position: relative;
 }
 
 #sp-header .navbar-inverse .navbar-nav > li > a {
@@ -126,7 +128,7 @@ iframe#_hjRemoteVarsFrame {
 }
 #sp-header .navbar-brand {
     height: auto;
-    padding: 10px 15px;
+    padding: 4px 15px;
 }
 #sp-header .navbar-inverse .navbar-nav > .active > a {
     background-color: transparent;
@@ -185,7 +187,7 @@ iframe#_hjRemoteVarsFrame {
 }
 .sticky-prop-bar span.prop-dtl {
     text-transform: none;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 24px;
     color: #000000;
     font-family: "Optima"; 
@@ -247,7 +249,7 @@ iframe#_hjRemoteVarsFrame {
     padding: 15px 0 11px;
     font-size: 15px;
     color: white;
-    background: #232323;
+    background: #071c35;
 }
 .modal-title {
     margin: 0;
@@ -310,7 +312,7 @@ iframe#_hjRemoteVarsFrame {
         width: 55px;
     }
     .sticky img {
-        width: 45px !important;
+        width: 57px !important;
     }
     #sp-header .navbar-inverse .navbar-nav > li > a {
         line-height: 2;
@@ -340,4 +342,10 @@ iframe#_hjRemoteVarsFrame {
     margin-right: 0px;
     margin-left: 0px;
 }
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: left;
+        margin: -4px;
+    }
 }
