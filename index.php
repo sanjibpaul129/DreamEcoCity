@@ -1197,9 +1197,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
           <div class="form-group">
             <input type="hidden" name="source_url" value="https://dreamecocity.com/" />
             <input type="hidden" name="thankyouurl" value="https://dreamecocity.com/thankyou.php" />
-            <input type="hidden" name="utm_source" value="0" />
+            <!-- <input type="hidden" name="utm_source" value="0" />
             <input type="hidden" name="utm_campaign" value="0" />
-            <input type="hidden" name="utm_medium" value="0" />
+            <input type="hidden" name="utm_medium" value="0" /> -->
             <!--<input type="hidden" value="2nd Agency" name="agency">-->
             <button type="submit" class="btn" id="loginBtn" name="loginBtn">SUBMIT</button>
           </div>
@@ -1312,9 +1312,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
           <div class="form-group">
             <input type="hidden" name="source_url" value="https://dreamecocity.com/" />
             <input type="hidden" name="thankyouurl" value="https://dreamecocity.com/thankyoufordownload.php" />
-            <input type="hidden" name="utm_source" value="0" />
+            <!-- <input type="hidden" name="utm_source" value="0" />
             <input type="hidden" name="utm_campaign" value="0" />
-            <input type="hidden" name="utm_medium" value="0" />
+            <input type="hidden" name="utm_medium" value="0" /> -->
             <!--<input type="hidden" value="2nd Agency" name="agency">-->
             <button type="submit" class="btn" id="loginBtn2" name="loginBtn2">SUBMIT</button>
           </div>

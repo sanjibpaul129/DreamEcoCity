@@ -23,7 +23,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="facebook-domain-verification" content="y55xwr1mhuhvrt1e05c0s925qyklq0" />
 <meta name="keywords" content="jain dream eco city, dream eco city durgapur, jain group project, flat in muchipara, flat in durgapur, residential projects in durgapur, housing projects in durgapur, apartments in durgapur, 2 bhk flats in durgapur">
 <meta name="description" content="Dream Eco City is a premium residential project located in Durgapur, India. Our eco-friendly apartments offer luxurious amenities, modern design, and sustainable living options.">
-<link rel="shortcut icon" href="assets/logo.png">
+<link rel="shortcut icon" href="assets/logonew.png">
 <link rel="stylesheet" id="wp-block-library-css" href="assets/style.min.css" type="text/css" media="all" />
 <link rel="stylesheet" id="wpml-legacy-dropdown-0-css" href="assets/style(1).css" type="text/css" media="all" />
 <link rel="stylesheet" id="wpml-tm-admin-bar-css" href="assets/admin-bar-style.css" type="text/css" media="all" />
@@ -309,7 +309,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="index.php"><img src="assets/logo.png" class="img-responsive" /></a>
+                                <a class="navbar-brand" href="index.php"><img src="assets/logonew.png" class="img-responsive" /></a>
                             </div>
                             <div class="collapse navbar-collapse" id="myNavbar">
                                 <ul class="nav navbar-nav navbar-right">
@@ -374,7 +374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </div>
                                 <div class="col-lg-3 col-md-3 hidden-xs p-0">
                                     <h4>Prices from</h4>
-                                    <span class="prop-dtl footer-price-from">32 LACS ONWARDS</span>
+                                    <span class="prop-dtl footer-price-from">34 LACS ONWARDS</span>
                                 </div>
                                 <div class="col-lg-4 col-md-3 hidden-xs p-0">
                                     <h4>FLATS TYPE</h4>
